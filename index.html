@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>WebDev at Mozilla | MozCamp LatAm 2012</title>
+    
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="Bartek Szopka" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+    <link href="css/impress-demo.css" rel="stylesheet" />
+</head>
+
+<body class="impress-not-supported">
+
+<!--
+    For example this fallback message is only visible when there is `impress-not-supported` class on body.
+-->
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+
+    <div class="step slide" data-x="-1000" data-y="-1500">
+      <center>
+        <h1>WebDev at Mozilla</h1>
+        <h2>MozCamp LatAm 2012</h2>
+        <br/>
+      </center>
+      <div style="position: absolute; bottom: 20px; right: 20px">
+        Ricky Rosario, <a href="https://twitter.com/r1cky">@r1cky</a>
+      </div>
+    </div>
+
+    <div class="step slide" data-x="0" data-y="-1500">
+        <h1>About me</h1>
+        <ul>
+          <li>Two years with Mozilla</li>
+          <li>Lead dev for <a href="https://support.mozilla.org">SUMO</a></li>
+          <li>Grew up in Puerto Rico</li>
+          <li>Live in South Florida</li>
+          <li>r1cky on IRC</li>
+          <li>ricky@mozilla.com</li>
+        </ul>
+    </div>
+
+    <div class="step slide" style="padding: 0;" data-x="1000" data-y="-1500">
+        <h1 style="padding: 40px 60px;">About us (WebDev)</h1>
+        <img src="webdev.jpg" width="100%" />
+        <p><center>
+          WebDev Team in Portland, June 2011
+        </center></p><br/>
+        <p><center>~50 paid staff, ~10 contributors (excluding bug filers)</center></p>
+    </div>
+    
+    <div class="step slide" data-x="2000" data-y="-1500">
+      <h1>What we work on</h1>
+      <ul>
+        <li>All the sites! (<a href="https://wiki.mozilla.org/Websites/Domain_List">list of active sites</a>)</li>
+        <li>All open source</li>
+        <li>~158 sites owned by Mozilla</li>
+      </ul>
+      <p style="font-size:20px; line-height: 34px;">
+        addons.mozilla.org
+        addons.mozilla.jp
+        affiliates.mozilla.org
+        air.mozilla.org
+        blog.mozilla.com
+        bugzilla.mozilla.org
+        bugzilla.org
+        builder.addons.mozilla.org
+        byob.mozilla.com
+        careers.mozilla.org
+        ci.mozilla.rog
+        detodosparatodos.org
+        developer.mozilla.org
+        dnt.mozilla.org
+        donate.mozilla.org
+        getpersonas.com
+        hackasaurus.org
+        hacks.mozilla.org
+        hg.mozilla.org
+        input.mozilla.org
+        localize.mozilla.org
+        mozillalabs.com
+        mozilla.org
+        mozillians.org
+        mpl.mozilla.org
+        mxr.mozilla.org
+        nightly.mozilla.org
+        openbadges.org
+        pastebin.mozilla.org
+        planet.mozilla.org
+        quality.mozilla.org
+        releases.mozilla.org
+        reps.mozill.aorg
+        rockyourfirefox.com
+        services.mozilla.com
+        status.mozilla.com
+        support.mozilla.com
+        tinderbox.mozilla.org
+        tools.mozilla.com
+        webfwd.org
+        webtools.mozilla.org
+        wiki.mozilla.org
+        www-archive.mozilla.org
+        .........
+      </p>
+    </div>
+
+    <div class="step slide" data-x="3000" data-y="-1500">
+      <h1>Major sites (by traffic)</h1>
+    </div>
+
+    <div class="step slide" id="moz-org" data-x="3000" data-y="-750">
+      <div style="background: #000; border: solid 5px red; border-radius: 10px; box-shadow: 2px 2px 2px rgba(0,0,0,.4); color: #fff; opacity: 0.8; float: left; margin-top: 480px; padding: 10px;">
+        mozilla.org<br/>2M visitors/day
+      </div>
+    </div>
+
+    <div class="step slide" id="amo" data-x="3000" data-y="0">
+      <div style="background: #000; border: solid 5px red; border-radius: 10px; box-shadow: 2px 2px 2px rgba(0,0,0,.4); color: #fff; opacity: 0.8; float: left; margin-top: 480px; padding: 10px;">
+        addons.mozilla.org (AMO)<br/>1.25M visitors/day
+      </div>
+    </div>
+
+    <div class="step slide" id="sumo" data-x="3000" data-y="750">
+       <div style="background: #000; border: solid 5px red; border-radius: 10px; box-shadow: 2px 2px 2px rgba(0,0,0,.4); color: #fff; opacity: 0.8; float: left; margin-top: 480px; padding: 10px;">
+         support.mozilla.org (SUMO)<br/>450K visitors/day
+       </div>
+
+    </div>
+
+    <div class="step slide" id="mdn" data-x="3000" data-y="1500">
+       <div style="background: #000; border: solid 5px red; border-radius: 10px; box-shadow: 2px 2px 2px rgba(0,0,0,.4); color: #fff; opacity: 0.8; float: left; margin-top: 480px; padding: 10px;">
+         developer.mozilla.org (MDN)<br/>60K visitors/day
+       </div>
+
+    </div>
+    
+    <div class="step slide" data-x="4000" data-y="-1500">
+      <h1>Our typical stack</h1>
+      <ul>
+        <li>HTML/CSS/JS (Open Web Technologies!)</li>
+        <li>Python+Django</li>
+        <li>Celery</li>
+        <li>MySQL, Memcached, Redis, ElasticSearch</li>
+      </ul>
+    </div>
+
+    <div class="step slide" data-x="5000" data-y="-1500">
+      <h1>playdoh</h1>
+      <ul>
+        <li><a href="https://github.com/mozilla/playdoh">github.com/mozilla/playdoh</a></li>
+        <li>Project used for bootstrapping new sites</li>
+        <li>Builds in our conventions and best practices
+          <br/>
+          <ul>
+            <li>Jinja2 templates</li>
+            <li>(More) Secure by default</li>
+            <li>L10n enhancements</li>
+          </ul>
+        </li>
+        <li>Documentation: <a href="http://playdoh.readthedocs.org">playdoh.readthedocs.org</a></li>
+      </ul>
+    </div>
+
+    <div class="step slide" data-x="6000" data-y="-1500">
+      <h1>Shared libraries</h1>
+      <ul>
+        <li>We maintain and contribute to lots of open source libraries.</li>
+        <li>Useful to sites outside of Mozilla</li>
+        <li>Use them, report issues, contribute fixes</li>
+      </ul>
+    </div>
+
+    <div class="step slide" data-x="7000" data-y="-1500">
+      <ul>
+        <li>
+          <a href="https://github.com/jsocol/bleach/">bleach</a><br/>
+          HTML sanitization of user input
+        </li>
+        <li>
+          <a href="https://github.com/jbalogh/django-cache-machine">django cache machine</a><br/>
+          Automatic caching and invalidation for Django models
+        </li>
+        <li>
+          <a href="https://github.com/jsocol/django-cronjobs">django-cronjobs</a><br/>
+          A simple cron-running management command for Django
+        </li>
+        <li>
+          <a href="https://github.com/jsocol/django-waffle">waffle</a><br/>
+          A feature flipper for Django</li>
+        <li>
+          many, many more
+        </li>
+      </ul>
+    </div>
+
+    <div class="step slide" data-x="8000" data-y="-1500">
+      <h1><center>The dev process</center></h1>
+      <!--
+      <ul>
+        <li>Choose a bug (Bugzilla)</li>
+        <li>Github: Fork the repo (Github)</li>
+        <li>Implement fix in a branch</li>
+        <li>Pull request (Github)</li>
+        <li>Code review (Github)</li>
+        <li>Merge to master (Github)</li>
+        <li>Run test suite (Jenkins)</li>
+        <li>Deploy to dev site (Automated scripts)</li>
+      </ul>
+    -->
+    </div>
+
+    <div class="step slide" style="text-align: center;" data-x="8000" data-y="-750">
+      <h1>Choose a bug (Bugzilla)</h1>
+      <img src="bugzilla.png" width="95%" />
+    </div>
+
+    <div class="step slide" style="text-align: center;" data-x="8000" data-y="0">
+      <h1>Github: Fork the repo (Github)</h1>
+      <img src="github.png" width="95%" />
+    </div>
+
+    <div class="step slide" style="text-align: center;" data-x="8000" data-y="750">
+      <h1>Implement fix in a branch</h1>
+    </div>
+
+    <div class="step slide" style="text-align: center;" data-x="8000" data-y="1500">
+      <h1>Pull request (Github)</h1>
+      <img src="pullrequest.png" width="95%" />
+    </div>
+
+    <div class="step slide" style="text-align: center;" data-x="8000" data-y="2250">
+      <h1>Code review (Github)</h1>
+      <img src="review.png" width="95%" />
+    </div>
+
+    <div class="step slide" style="text-align: center;" data-x="8000" data-y="3000">
+      <h1>Merge to master (Github)</h1>
+    </div>
+
+    <div class="step slide" style="text-align: center;" data-x="8000" data-y="3750">
+      <h1>Run test suite (Jenkins)</h1>
+      <img src="jenkins.png" width="95%" />
+    </div>
+
+    <div class="step slide" style="text-align: center;" data-x="8000" data-y="4500">
+      <h1>Deploy to dev site (Automated scripts)</h1>
+    </div>
+
+    <div class="step slide" style="text-align: center;" data-x="8000" data-y="5250">
+      <h1>Deploy to stage and prod site (push a button)</h1>
+      <img src="redbutton.png" width="90%" />
+    </div>
+
+    <div class="step slide" data-x="9000" data-y="-1500">
+      <h1>Why contribute?</h1>
+      <ul>
+        <li>Cool, interesting, hard and <b>FUN</b> problems<br/>
+        <ul>
+        <li>Scalability</li>
+        <li>Security</li>
+        <li>Localization</li>
+      </ul>
+      </li>
+        <li>Opportunity to build resume and work with senior developers (especially valuable for students)</li>
+        <li>It is fun!</li>
+      </ul>
+    </div>
+
+    <div class="step slide" data-x="10000" data-y="-1500">
+      <h1>Demo: fix a bug</h1>
+    </div>
+
+    <div class="step slide" data-x="11000" data-y="-1500">
+      <h1>Get involved!</h1>
+      <ul>
+        <li><strong><a href="https://wiki.mozilla.org/Webdev/GetInvolved">https://wiki.mozilla.org/Webdev/GetInvolved</a></strong></li>
+      <li><a href="http://mozweb.readthedocs.org">WebDev Bootcamp</a></li>
+      <li><a href="http://micropipes.com/blog/2012/04/10/how-to-get-a-development-instance-of-amo-set-up-in-about-10-minutes/">HOWTO: AMO dev instance in 10 minutes</a></li>
+      <li>Contact me:<br/>
+      <ul>
+        <li>@r1cky</li>
+        <li>ricky@mozill.com</li>
+        <li>r1cky in #webdev (irc.mozilla.org)</li>
+      </ul>
+      </li>
+      </ul> 
+    </div>
+
+    <div class="step slide" data-x="12000" data-y="-1500">
+      <h1>Other groups</h1>
+      <ul>
+        <li>There are web developers all over Mozilla</li>
+        <li>WebDev is just one of the groups</li>
+        <li>Some groups use other cool technologies (NodeJS for browserID, for example)</li>
+      </ul>
+    </div>
+
+    <div id="its-in-3d" class="step" data-x="4300" data-y="15000" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
+        <h1 style="color:#fff">Questions?</h1>
+    </div>
+
+    <!--
+        
+        So to make a summary of all the possible attributes used to position presentation steps, we have:
+        
+        * `data-x`, `data-y`, `data-z` -- they define the position of **the center** of step element on
+            the canvas in pixels; their default value is 0;
+        * `data-rotate-x`, `data-rotate-y`, 'data-rotate-z`, `data-rotate` -- they define the rotation of
+            the element around given axis in degrees; their default value is 0; `data-rotate` and `data-rotate-z`
+            are exactly the same;
+        * `data-scale` -- defines the scale of step element; default value is 1
+        
+        These values are used by impress.js in CSS transformation functions, so for more information consult
+        CSS transfrom docs: https://developer.mozilla.org/en/CSS/transform
+        
+    -->
+
+
+</div>
+
+<!--
+    
+    Hint is not related to impress.js in any way.
+    
+    But it can show you how to use impress.js features in creative way.
+    
+    When the presentation step is shown (selected) its element gets the class of "active" and the body element
+    gets the class based on active step id `impress-on-ID` (where ID is the step's id)... It may not be
+    so clear because of all these "ids" in previous sentence, so for example when the first step (the one with
+    the id of `bored`) is active, body element gets a class of `impress-on-bored`.
+    
+    This class is used by this hint below. Check CSS file to see how it's shown with delayed CSS animation when
+    the first step of presentation is visible for a couple of seconds.
+    
+    ...
+    
+    And when it comes to this piece of JavaScript below ... kids, don't do this at home ;)
+    It's just a quick and dirty workaround to get different hint text for touch devices.
+    In a real world it should be at least placed in separate JS file ... and the touch content should be
+    probably just hidden somewhere in HTML - not hard-coded in the script.
+    
+    Just sayin' ;)
+    
+-->
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+<!--
+    
+    Last, but not least.
+    
+    To make all described above really work, you need to include impress.js in the page.
+    I strongly encourage to minify it first.
+    
+    In here I just include full source of the script to make it more readable.
+    
+    You also need to call a `impress().init()` function to initialize impress.js presentation.
+    And you should do it in the end of your document. Not only because it's a good practice, but also
+    because it should be done when the whole document is ready.
+    Of course you can wrap it in any kind of "DOM ready" event, but I was too lazy to do so ;)
+    
+-->
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+<!--
+    
+    The `impress()` function also gives you access to the API that controls the presentation.
+    
+    Just store the result of the call:
+    
+        var api = impress();
+    
+    and you will get three functions you can call:
+    
+        `api.init()` - initializes the presentation,
+        `api.next()` - moves to next step of the presentation,
+        `api.prev()` - moves to previous step of the presentation,
+        `api.goto( idx | id | element, [duration] )` - moves the presentation to the step given by its index number
+                id or the DOM element; second parameter can be used to define duration of the transition in ms,
+                but it's optional - if not provided default transition duration for the presentation will be used.
+    
+    You can also simply call `impress()` again to get the API, so `impress().next()` is also allowed.
+    Don't worry, it wont initialize the presentation again.
+    
+    For some example uses of this API check the last part of the source of impress.js where the API
+    is used in event handlers.
+    
+-->
+
+</body>
+</html>
+
+<!--
+    
+    Now you know more or less everything you need to build your first impress.js presentation, but before
+    you start...
+    
+    Oh, you've already cloned the code from GitHub?
+    
+    You have it open in text editor?
+    
+    Stop right there!
+    
+    That's not how you create awesome presentations. This is only a code. Implementation of the idea that
+    first needs to grow in your mind.
+    
+    So if you want to build great presentation take a pencil and piece of paper. And turn off the computer.
+    
+    Sketch, draw and write. Brainstorm your ideas on a paper. Try to build a mind-map of what you'd like
+    to present. It will get you closer and closer to the layout you'll build later with impress.js.
+    
+    Get back to the code only when you have your presentation ready on a paper. It doesn't make sense to do
+    it earlier, because you'll only waste your time fighting with positioning of useless points.
+    
+    If you think I'm crazy, please put your hands on a book called "Presentation Zen". It's all about 
+    creating awesome and engaging presentations.
+    
+    Think about it. 'Cause impress.js may not help you, if you have nothing interesting to say.
+    
+-->
+
+<!--
+    
+    Are you still reading this?
+    
+    For real?
+    
+    I'm impressed! Feel free to let me know that you got that far (I'm @bartaz on Twitter), 'cause I'd like
+    to congratulate you personally :)
+    
+    But you don't have to do it now. Take my advice and take some time off. Make yourself a cup of coffee, tea,
+    or anything you like to drink. And raise a glass for me ;)
+    
+    Cheers!
+    
+-->
+
